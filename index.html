@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Mantra Generator</title>
   </head>
   <body>
@@ -12,7 +13,7 @@
         <h1>AI Positive Mantra Generator</h1>
       </header>
       <main>
-        <form>
+        <form id="form-input">
           <input
             type="text"
             placeholder="Enter the theme of the Mantra"
@@ -23,11 +24,7 @@
           />
           <button type="submit" class="submit-button">Submit</button>
         </form>
-        <div class="mantra">
-          The Mantra will go here
-          <br />
-          An image will go here
-        </div>
+        <div class="mantra" id="mantra"></div>
       </main>
 
       <footer>
