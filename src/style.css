@@ -4,7 +4,7 @@ body {
 }
 
 a {
-  color: #396362;
+  color: #4b8e8d;
 }
 
 .container {
@@ -54,6 +54,13 @@ form {
   background-color: #4b8e8d;
   color: white;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: all 200ms ease-in-out;
+}
+
+.submit-button:hover {
+  background-color: #f6c89f;
+  border: 1px solid #4b8e8d;
+  color: #396362;
 }
 
 .mantra {
@@ -64,7 +71,7 @@ form {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin-bottom: 30px;
   text-align: center;
-  border-left: 4px solid #396362;
+  border-left: 4px solid #4b8e8d;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   color: #396362;
