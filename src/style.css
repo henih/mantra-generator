@@ -1,1 +1,78 @@
+body {
+  background-color: #f6c89f;
+  font-family: Helvetica, Arial, sans-serif;
+}
 
+a {
+  color: #396362;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #396362;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+form {
+  padding: 30px;
+  background-color: #ffe7d1;
+  border-radius: 30px;
+  display: flex;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 30px;
+}
+
+.instructions {
+  padding: 16px;
+  border: 1px solid rgba(39, 33, 66, 0.5);
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 1.5;
+}
+
+.submit-button {
+  margin-left: 10px;
+  border-radius: 50px;
+  border: none;
+  width: 25%;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 600;
+  padding: 14px 24px;
+  background-color: #4b8e8d;
+  color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.mantra {
+  font-size: 16px;
+  background-color: #ffe7d1;
+  padding: 20px;
+  line-height: 1.5;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 30px;
+  text-align: center;
+  border-left: 4px solid #396362;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  color: #396362;
+  font-weight: 600;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+}
