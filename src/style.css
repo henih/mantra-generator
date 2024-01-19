@@ -27,7 +27,7 @@ header {
 form {
   padding: 30px;
   background-color: #ffe7d1;
-  border-radius: 30px;
+  border-radius: 50px;
   display: flex;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin-bottom: 30px;
@@ -66,6 +66,7 @@ form {
 }
 
 .mantra {
+  display: none;
   font-size: 16px;
   background-color: #ffe7d1;
   padding: 20px;
@@ -74,8 +75,8 @@ form {
   margin-bottom: 30px;
   text-align: center;
   border-left: 4px solid #4b8e8d;
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
   color: #396362;
   font-weight: 600;
 }
@@ -84,4 +85,14 @@ footer {
   text-align: center;
   font-size: 12px;
   font-weight: 500;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
 }
